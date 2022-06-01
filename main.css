@@ -75,6 +75,11 @@ a:-webkit-any-link{
     width: 100%;
     height: 615px;
 }
+.img-food{
+    float: right;
+    height: 100px;
+    width: 160px;
+}
 .shop-grayscal-min{
     filter: grayscale(50%);
 }
@@ -87,6 +92,10 @@ a:-webkit-any-link{
 .shop-padding-48{
     padding-top: 48px!important;
     padding-bottom: 48px !important;
+}
+.shop-padding-16{
+    padding-top: 16px!important;
+    padding-bottom: 16px !important;
 }
 .shop-center{
     text-align: center !important;
@@ -138,9 +147,7 @@ a:-webkit-any-link{
 .shop-large{
     font-size: 18px !important;
 }
-.shop-grayscale{
-    filter: grayscale(75%);
-}
+
 .shop-container{
     padding: 0.01em 16px;
 }
@@ -160,10 +167,26 @@ a:-webkit-any-link{
     background-color: #000;
     color: #fff;
     display: inline-block;
-    padding-left: 8px;
-    padding-right: 8px;
-    text-align: center;
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 4px;
+    cursor: pointer;
+    height: 32px;
+}
+.text-tag-2{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 24px;
+    width: 25%;
 }
 .text-wide{
     letter-spacing: 4px;
@@ -196,6 +219,14 @@ a:-webkit-any-link{
 }
 .socials-2{
     font-size: 24px;
+}
+.shop-border{
+    border: 1px solid #ccc!important;
+}
+.shop-input{
+    padding: 8px;
+    width: 100%;
+    display:block;
 }
 #footer{
     height: 2000px;
